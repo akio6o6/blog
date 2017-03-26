@@ -14,7 +14,7 @@ published: true
       <h2>最近の記事</h2>
       <ul>
         {% for post in site.posts limit:5 %}
-        <li><a href="https://akio6o6.github.io/blog{{ post.url }}">{{ post.title }}</a></li>
+        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
       </ul>
     </div>
