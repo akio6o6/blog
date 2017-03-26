@@ -266,10 +266,9 @@ footer {
 @mixin post-tag {
   padding: 0 .3rem;
   margin: 0 .1rem;
-  background: $blue;
-  color: white;
+  color: $blue;
   &:hover {
-    text-decoration: none;
+    text-decoration: underline;
   }
 }
 
@@ -286,10 +285,6 @@ footer {
   }
   .post-tags {
     display: inline-block;
-    a {
-      @include post-tag;
-      font-size: .8rem;
-    }
   }
 }
 
