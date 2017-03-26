@@ -2,14 +2,13 @@
 layout: page
 title: About
 permalink: /about/
+published: true
 ---
 
-Some information about you!
+## このサイトについて
 
-### More Information
+メモ的なものを書き散らかす場所です。
 
-A place to include any other types of information that you'd like to include about yourself.
+## お問い合わせ
 
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe1bER31TMxuRuRYpT6HfMSR1qHp425sipNEhKgbsrnQuTuNg/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます...</iframe>
