@@ -5,9 +5,6 @@ layout: default
 <article class="post">
   <h1><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h1>  
   {% include post_meta.html %}
-  <div class="date">
-    {{ page.date | date: "%B %e, %Y" }}
-  </div>
 
   <div class="entry">
     {{ content }}
