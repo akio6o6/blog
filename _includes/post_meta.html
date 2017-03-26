@@ -12,7 +12,7 @@ Obtain time and tags that are associated with current page/post.
   {% assign tags = page.tags %}
 {% endif %}
 
-<span class="post-meta">
+<div class="post-meta">
   <time
     datetime="{{ date | date_to_xmlschema }}"
     class="post-date">
@@ -32,3 +32,4 @@ Obtain time and tags that are associated with current page/post.
       </a>
     {% endfor %}
   </div>
+</div>
