@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 published: true
 title: 2017-03-27-markdown-test.md
 tags: markdown jekyll
