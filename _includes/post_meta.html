@@ -16,7 +16,7 @@ Obtain time and tags that are associated with current page/post.
   <time
     datetime="{{ date | date_to_xmlschema }}"
     class="post-date">
-    {{ date | date_to_string }}
+    {{ date | date: "%B %e, %Y" }}
   </time>
 
   {% comment %}
