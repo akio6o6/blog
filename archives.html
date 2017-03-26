@@ -1,3 +1,10 @@
+---
+layout: page
+title: Posts By Tags
+permalink: /tags
+published: true
+---
+
 {% for post in site.posts %}
   {% unless post.next %}
     {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
