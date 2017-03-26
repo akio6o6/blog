@@ -79,7 +79,7 @@ a {
 
 ul, ol {
   margin: 15px 0;
-  padding-left: 30px;
+  padding-left: 1em;
 }
 
 ul {
@@ -195,7 +195,7 @@ img {
 
 nav {
   float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  margin-top: 23px;
   font-family: "Noto Sans Japanese", sans-serif;
   font-size: 18px;
 
@@ -236,8 +236,6 @@ nav {
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
     color: $gray;
-    font-size: 22px;
-    font-style: italic;
   }
 
   .comments {
@@ -251,7 +249,7 @@ nav {
 }
 
 .wrapper-footer {
-  margin-top: 50px;
+  margin-top: 40px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: $lightGray;
