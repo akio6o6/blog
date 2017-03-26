@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: akio6o6
+name: アキメモ
 
 # Short bio or description (displayed in the header)
 description: なんか書く
@@ -25,7 +25,7 @@ footer-links:
   instagram:
   linkedin:
   pinterest:
-  rss: # just type anything here for a working RSS icon
+  rss: feed # just type anything here for a working RSS icon
   twitter: akio6o6
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
@@ -87,7 +87,7 @@ exclude:
   - CNAME
 
 prose:
-  rooturl: '_posts'
+  # rooturl: '_posts'
   siteurl: 'http://akio6o6.github.io/blog/'
   media: 'media'
   metadata:
