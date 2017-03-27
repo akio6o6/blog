@@ -1,9 +1,10 @@
 ---
 layout: default
+published: true
 ---
 
 <div class="posts">
-  {% for post in site.posts %}
+  {% for post in paginator.posts %}
     <article class="post">
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
       {% include post_meta.html %}
@@ -15,4 +16,30 @@ layout: default
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
+
+  <!-- ページネーション -->
+  {% if paginator.total_pages > 1 %}
+    <div class="pagination">
+      {% if paginator.previous_page %}
+        <a class="pagination__item" href="{{ paginator.previous_page_path | relative_url }}">&lt; 前のページ</a>
+      {% endif %}
+
+      {% for page in (1..paginator.total_pages) %}
+        {% if page == paginator.page %}
+          <span class="pagination__item current">{{ page }}</span>
+         {% elsif page == 1 %}
+          <a class="pagination__item" href="{{ site.paginate_path | relative_url | replace: 'page:num', '' }}">{{ page }}</a>
+        {% else %}
+          <a class="pagination__item" href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
+        {% endif %}
+      {% endfor %}
+
+      {% if paginator.next_page %}
+        <a class="pagination__item" href="{{ paginator.next_page_path | relative_url }}">次のページ &gt;</a>
+      {% endif %}
+
+    </div><!--pagination-->
+  {% endif %}
+
+ 
 </div>
