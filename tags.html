@@ -29,9 +29,9 @@ published: true
 <section class="posts-by-tags">
   {% for tag_name in tag_names %}
     <div>
-      <h3 id="{{ tag_name }}">
+      <h2 id="{{ tag_name }}">
         {{ tag_name | capitalize | replace: "_", " " }}
-      </h3>
+      </h2>
 
       {% for post in site.tags[tag_name] %}
         <a href="https://akio6o6.github.io/blog{{ post.url }}">
