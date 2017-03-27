@@ -80,7 +80,6 @@ gems:
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-paginate
 
-
 paginate: 1
 paginate_path: "blog/page:num"
 
