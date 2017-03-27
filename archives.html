@@ -2,6 +2,7 @@
 layout: page
 title: Archives
 permalink: /archives
+published: true
 ---
 
 {% for post in site.posts %}
@@ -11,7 +12,7 @@ permalink: /archives
 <h2 id="{{year}}{{nmonth}}">{{ month }}/{{ year }}</h2>
 <ul class="posts">
   <li>
-    <span class="post-date">{{ post.date | date_to_string }} &raquo;</span>
+    <span class="post-date">{{ post.date | date: "%B %e, %Y" }} &raquo;</span>
     <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
   </li>
   {% else %}
