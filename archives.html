@@ -9,7 +9,6 @@ published: true
 {% unless post.next %}
 {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
 {% capture month %}{{ post.date | date: '%m' }}{% endcapture %}
-<h2 id="{{year}}{{nmonth}}">{{ month }}/{{ year }}</h2>
 <ul class="posts">
   <li>
     <span class="post-date">{{ post.date | date: "%B %e, %Y" }} &raquo;</span>
@@ -21,13 +20,11 @@ published: true
   {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
   {% if month != nmonth %}
 </ul>
-<h2 id="{{year}}{{nmonth}}">{{ month }}/{{ year }}</h2>
 <ul class="posts">
   {% else %}
   {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
   {% if year != nyear %}
 </ul>
-<h2 id="{{year}}{{nmonth}}">{{ month }}/{{ year }}</h2>
 <ul class="posts">
   {% endif %}
   {% endif %}
