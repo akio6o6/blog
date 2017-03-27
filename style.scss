@@ -159,7 +159,8 @@ img {
   margin-right: 8px;
 
   @include mobile {
-    display: none;
+    width: 32px;
+    height: 32px;
   }
 
   &:hover {
