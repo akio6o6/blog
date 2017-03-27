@@ -292,7 +292,13 @@ ul.posts {
   .post-tags {
     display: inline-block;
   }
-   a { margin-right: 4px; }
+  a {
+     margin-right: 4px;
+     color:#9a9a9a;
+  }
+   &:hover{
+     text-decoration:underline;
+   }    
 }
 
 /**
