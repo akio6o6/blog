@@ -290,7 +290,6 @@ footer {
 
 // Pagenation
 .pagination{
-  @include pad();
   text-align: center;
   display: flex;
   flex-wrap: wrap;
