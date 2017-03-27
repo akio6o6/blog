@@ -79,7 +79,7 @@ a {
 
 ul, ol {
   margin: 15px 0;
-  padding-left: 1em;
+  padding-left: 2em;
 }
 
 ul {
@@ -258,6 +258,11 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+}
+
+// Archives
+.ul.posts {
+  font-size: 16px;
 }
 
 // Tags
