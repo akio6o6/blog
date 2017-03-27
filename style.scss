@@ -157,9 +157,9 @@ img {
 
 .site-avatar {
   float: left;
-  width: 70px;
-  height: 70px;
-  margin-right: 16px;
+  width: 56px;
+  height: 56px;
+  margin-right: 8px;
 
   @include mobile {
     display: none;
@@ -180,7 +180,7 @@ img {
   cursor: pointer;
   font-family: "Noto Sans Japanese", sans-serif;
   font-weight: 600;
-  font-size: 28px;
+  font-size: 24px;
   letter-spacing: 1px;
 }
 
@@ -198,7 +198,7 @@ nav {
   float: right;
   margin-top: 23px;
   font-family: "Noto Sans Japanese", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
 
   @include mobile {
     display: block;
@@ -284,6 +284,28 @@ footer {
   padding: 20px 0;
   text-align: center;
   font-size: 13px;
+}
+
+// Pagenation
+.pagination{
+  @include pad();
+  display: flex;
+  flex-wrap: wrap;
+
+  &__item{
+
+    margin-right: 4px;
+    text-decoration: none;
+    display: block;
+    padding: 7px 16px;
+    border: #aaa;
+  }
+
+  .current{
+    background: #aaa;
+    border-color: #aaa;
+    color: white;
+  }
 }
 
 // Archives
