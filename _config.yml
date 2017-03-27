@@ -117,7 +117,7 @@ prose:
         field
           label: "date"
           element: "text"
-          value: "CURRENT_DATETIME"
+          value: ""
       - name: "published"
         field:
           label: "publish"
