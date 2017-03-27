@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: MarkDownの表示テスト
-tags: markdown jekyll
+tags: markdown
 ---
 # H1
 
