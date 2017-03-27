@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Hello world
 ---
 はてなブログでカスタマイズできる範囲の狭さにイライラした時用に<a href="http://www.jekyllnow.com/" target="_blank">Jekyll Now</a>で開設してみた。
