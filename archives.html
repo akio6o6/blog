@@ -14,18 +14,6 @@ published: true
           <span class="post-date">{{ post.date | date: "%B %e, %Y" }} &raquo;</span>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </li>
-    {% else %}
-      {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-      {% if year != nyear %}
       </ul>
-        <h2 id="{{year}}">{{ year }}</h2>
-        <ul class="posts">
-      {% endif %}
-    {% endif %}
-        <li>
-    <span class="post-date">{{ post.date | date: "%B %e, %Y" }} &raquo;</span>
-    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-  </li>
   {% endunless %}
   {% endfor %}
-</ul>
