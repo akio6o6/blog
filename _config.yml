@@ -107,6 +107,7 @@ prose:
         field:
           label: "title"
           element: "text"
+          value: ""
       - name: "tags"
         field:
           label: "tags"
