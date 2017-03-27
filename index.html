@@ -17,29 +17,23 @@ published: true
     </article>
   {% endfor %}
 
-  <!-- ページネーション -->
-  {% if paginator.total_pages > 1 %}
-    <div class="pagination">
-      {% if paginator.previous_page %}
-        <a class="pagination__item" href="/blog/{{ paginator.previous_page_path }}">&lt; 前のページ</a>
-      {% endif %}
+    <!-- ページネーション -->
+    {% if paginator.total_pages > 1 %}
+      <div class="pagination">
 
-	    {% for page in (1..paginator.total_pages) %}
-        {% if page == paginator.page %}
-          <span class="pagination__item current">{{ page }}</span>
-         {% elsif page == 1 %}
-          <a class="pagination__item" href="{{ site.paginate_path | replace: 'page:num', '' }}">{{ page }}</a>
-        {% else %}
-          <a class="pagination__item" href="{{ site.paginate_path | replace: ':num', page }}">{{ page }}</a>
+        {% if paginator.previous_page %}
+          <a class="pagination__item" href="{{ paginator.previous_page_path | relative_url }}">&lt; 前のページ</a>
         {% endif %}
-      {% endfor %}
 
-      {% if paginator.next_page %}
-        <a class="pagination__item" href="/blog/{{ paginator.next_page_path }}">次のページ &gt;</a>
-      {% endif %}
+        <span class="pagination__item pagination__number">
+          {{ paginator.page }} / {{ paginator.total_pages }}
+        </span>
 
-    </div><!--pagination-->
-  {% endif %}
+        {% if paginator.next_page %}
+          <a class="pagination__item" href="{{ paginator.next_page_path | relative_url }}">次のページ &gt;</a>
+        {% endif %}
 
+      </div><!--pagination-->
+    {% endif %}
  
 </div>
