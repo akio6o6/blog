@@ -158,11 +158,6 @@ img {
   height: 56px;
   margin-right: 8px;
 
-  @include mobile {
-    width: 32px;
-    height: 32px;
-  }
-
   &:hover {
     transform: rotate(-15deg);
 }
