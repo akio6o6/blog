@@ -107,12 +107,15 @@ prose:
         field:
           label: "title"
           element: "text"
-          value: ""
       - name: "tags"
         field:
           label: "tags"
           element: "text"
           value: ""
+      - name: "date"
+        field
+          label: "date"
+          value: CURRENT_DATETIME
       - name: "published"
         field:
           label: "publish"
