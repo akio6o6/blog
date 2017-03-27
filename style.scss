@@ -219,12 +219,6 @@ nav {
 // .main
 //
 
-#main h1:before {
-  content: "#";
-  color: #aaa;
-  margin-right: 4px;
-}
-
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
