@@ -114,10 +114,10 @@ prose:
           element: "text"
           value: ""
       - name: "date"
-        field
+        field:
           label: "date"
           element: "text"
-          value: ""
+          value: CURRENT_DATETIME
       - name: "published"
         field:
           label: "publish"
