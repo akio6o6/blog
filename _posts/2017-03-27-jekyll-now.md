@@ -5,7 +5,7 @@ date: 2017-03-27 18:00
 tags: jekyll
 ---
 
-GitHub Pages + Jekyll のを簡単に生成できるサービス「<a href="http://www.jekyllnow.com/" target="_blank">Jekyll Now</a>」を使ってブログを作ってみた。
+GitHub Pages + Jekyll の環境を簡単に生成できるサービス「<a href="http://www.jekyllnow.com/" target="_blank">Jekyll Now</a>」を使ってブログを作ってみた。
 
 ## Jekyll Now？
 
