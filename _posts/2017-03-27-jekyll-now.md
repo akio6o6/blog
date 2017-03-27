@@ -9,9 +9,12 @@ GitHub Pages + Jekyll のを簡単に生成できるサービス「<a href="http
 
 ## Jekyll Now？
 
-参考 : <a href="http://plus.appgiga.jp/masatolan/2015/01/13/55047/" target="_blank">クリック1発で、Github上にブログを無料で作成できる「Jekyll Now」が超絶便利！ | シェアしたくなる最新のWebサービス・ITニュース情報をチェック！ APPGIGA!!（アプギガ）</a>
+参考 : <a href="http://plus.appgiga.jp/masatolan/2015/01/13/55047/" target="_blank">クリック1発で、Github上にブログを無料で作成できる「Jekyll Now」が超絶便利！ | APPGIGA!!（アプギガ）</a>
 
-Repository から Fork するだけでサイトが作れるのでGitやらRubyに馴染みが薄くても簡単。更新するだけならMarkDownだけで済むので管理のストレスが非常に少ないっぽい。
+Repository から Fork するだけでサイトが作れるのでGitやらRubyに馴染みが薄くても簡単。
+
+更新するだけならMarkDownだけで済むので管理のストレスが非常に少ないっぽい。
+
 しかもHTMLの構造なんかもいじろうと思えばいじれるという柔軟さもある。広告やレイアウトによる制限が無いのもよい。
 
 ## 開設後にやったこと
