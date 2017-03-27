@@ -105,9 +105,16 @@ prose:
           value: "post"
       - name: "title"
         field:
+          label: "title"
           element: "text"
           value: ""
       - name: "tags"
         field:
+          label: "tags"
           element: "text"
           value: ""
+      - name: "published"
+        field:
+          label: "publish"
+          element: "checkbox"
+          value: "true"
