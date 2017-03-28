@@ -280,6 +280,35 @@ nav {
     color: #aaa;
     margin-right: 4px;
   }
+
+  .news {
+    padding: 0 0 1.6em;
+  }
+  .newscomme {
+    border-left: 2px #ccc solid;
+    margin: 0 0 0 8px;
+    padding: 0 0 0 8px;
+  }
+
+  .video_wrapper {
+    min-width: 280px;
+    margin: 8px auto;
+  }
+  .video {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+    overflow: hidden;
+  }
+  .video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
 }
 
 //ad
