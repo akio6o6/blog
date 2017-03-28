@@ -7,10 +7,10 @@ published: true
 
   <!-- 記事一覧 -->
   {% for post in paginator.posts %}
-    <a href="{{ site.baseurl }}{{ post.url }}"><article class="post">
-      <h1>{{ post.title }}</h1>
+    <article class="post">
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
       {% include post_meta.html %}      
-    </article></a>
+    </article>
   {% endfor %}
 
 <!-- ページネーションリンク -->
