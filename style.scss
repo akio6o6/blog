@@ -19,7 +19,7 @@ html {
 
 body {
   background: $white;
-  line-height: 1.5;
+  line-height: 1.6;
   font-size: 18px;
   font-family: "Noto Sans Japanese", sans-serif;
   color: $darkGray;
@@ -252,7 +252,6 @@ nav {
 
 // entry
 .entry {
-  line-height: 1.8;
 
   a {
     text-decoration: underline;
@@ -299,7 +298,7 @@ nav {
   display: inline-block;
   vertical-align: top;
   height: 28px;
-  padding: 5px 8px 0px;
+  padding: 4px 8px 0px;
   border-radius: 4px;
   font-size: 13px;
   color: white;
@@ -311,7 +310,7 @@ nav {
   display: inline-block;
   vertical-align: top;
   height: 28px;
-  padding: 5px 8px 0px;
+  padding: 4px 8px 0px;
   border-radius: 4px;
   font-size: 13px;
   color: white;
