@@ -7,3 +7,5 @@ title: Twitter Embed test
 どうかな？
 
 {% twitter https://twitter.com/rubygems/status/518821243320287232 %}
+
+{% twitter https://twitter.com/akio6o6/status/846696543734317057 %}
