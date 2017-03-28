@@ -251,6 +251,10 @@ nav {
 
 // entry
 .entry {
+
+  a:hover {
+    text-decoration: underline;
+  }
   iframe {
     max-width: 100%;
     margin: 0 auto;
@@ -287,6 +291,7 @@ nav {
   max-width: 336px;
 }
 // sns
+
 .twitter a {
   display: inline-block;
   vertical-align: top;
