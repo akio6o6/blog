@@ -4,16 +4,14 @@ published: true
 ---
 
 <div class="posts">
-  {% for post in paginator.posts %}
-    <article class="post">
+  <!-- 記事一覧 --!>
+  <article class="post">
+    {% for post in paginator.posts %}
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-      {% include post_meta.html %}
-      
+      {% include post_meta.html %}      
       <div class="entry">
         {{ post.excerpt }}
       </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
 
