@@ -287,17 +287,6 @@ nav {
   max-width: 336px;
 }
 // sns
-.facebook a {
-  display: inline-block;
-  vertical-align: top;
-  height: 28px;
-  padding: 5px 8px 0px;
-  border-radius: 4px;
-  font-size: 13px;
-  color: white;
-  background: #3b5999;
-}
-
 .twitter a {
   display: inline-block;
   vertical-align: top;
@@ -307,6 +296,17 @@ nav {
   font-size: 13px;
   color: white;
   background: #55acee;
+}
+
+.facebook a {
+  display: inline-block;
+  vertical-align: top;
+  height: 28px;
+  padding: 5px 8px 0px;
+  border-radius: 4px;
+  font-size: 13px;
+  color: white;
+  background: #3b5999;
 }
 
 .wrapper-footer {
