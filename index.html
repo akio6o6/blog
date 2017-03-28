@@ -20,7 +20,7 @@ published: true
   {% if paginator.total_pages > 1 %}
     <div class="pagination">    
       {% if paginator.previous_page %}
-        <a class="pagination__item" href="blog{{ paginator.previous_page_path }}">&lt; 前のページ</a>
+        <a class="pagination__item" href="{{ paginator.previous_page_path }}">&lt; 前のページ</a>
       {% endif %}
       <span class="pagination__item pagination__number">
         {{ paginator.page }} / {{ paginator.total_pages }}
