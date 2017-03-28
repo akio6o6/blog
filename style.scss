@@ -71,7 +71,7 @@ a {
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $darkBlue;
   }
 }
 
@@ -251,10 +251,7 @@ nav {
 
 // entry
 .entry {
-
-  a:hover {
-    text-decoration: underline;
-  }
+  
   iframe {
     max-width: 100%;
     margin: 0 auto;
