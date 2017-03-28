@@ -81,7 +81,7 @@ gems:
   - jekyll-paginate
 
 paginate: 2
-paginate_path: "/blog/page:num"
+paginate_path: "/page:num"
 
 # Exclude these files from your production _site
 exclude:
