@@ -80,7 +80,7 @@ gems:
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-paginate 
 
-paginate: 1
+paginate: 5
 paginate_path: "page:num"
 
 # Exclude these files from your production _site
