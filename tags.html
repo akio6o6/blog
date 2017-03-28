@@ -32,12 +32,13 @@ published: true
       <h2 id="{{ tag_name }}">
         {{ tag_name | capitalize | replace: "_", " " }}
       </h2>
-
+      <ul>
       {% for post in site.tags[tag_name] %}
-        <a href="https://akio6o6.github.io/blog{{ post.url }}">
+        <li><a href="{{ site.url }}{{ post.url }}">
           {{ post.title }}
-        </a>
+        </a></li>
       {% endfor %}
+      </ul>
     </div>
   {% endfor %}
 </section>
