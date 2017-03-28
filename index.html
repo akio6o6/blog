@@ -21,7 +21,7 @@ published: true
 <div class="pagination">
 
   {% if paginator.previous_page %}
-    <a class="pagination__item" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+    <a class="pagination__item perv" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
   {% endif %}
 
   <span class="pagination__item pagination__number">
@@ -30,7 +30,7 @@ published: true
 
   
   {% if paginator.next_page %}
-    <a class="pagination__item" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+    <a class="pagination__item next" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
   {% endif %}
 </div>
 {% endif %}
