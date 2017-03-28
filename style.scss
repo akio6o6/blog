@@ -310,23 +310,24 @@ footer {
 // Pagenation
 .pagination{
   text-align: center;
-  display: flex;
-  flex-wrap: wrap;
 
   &__item{
-
-    margin-right: 4px;
-    text-decoration: none;
-    display: block;
-    padding: 7px 16px;
-    border: #aaa;
+    margin: 0 4px;
+    padding: 8px;
   }
 
-  .current{
-    background: #aaa;
-    border-color: #aaa;
-    color: white;
+  &__item.perv {
+    float: left;
   }
+
+  &__number {
+    display: inline-block;
+  }
+  
+  &__item.next {
+    float: right;
+  }
+
 }
 
 // Archives
