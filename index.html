@@ -20,13 +20,13 @@ published: true
   {% if paginator.total_pages > 1 %}
     <div class="pagination">    
       {% if paginator.previous_page %}
-        <a class="pagination__item" href="blog/{{ paginator.previous_page_path }}">&lt; 前のページ</a>
+        <a class="pagination__item" href="blog{{ paginator.previous_page_path }}">&lt; 前のページ</a>
       {% endif %}
       <span class="pagination__item pagination__number">
         {{ paginator.page }} / {{ paginator.total_pages }}
       </span>
       {% if paginator.next_page %}
-        <a class="pagination__item" href="blog/{{ paginator.next_page_path }}">次のページ &gt;</a>
+        <a class="pagination__item" href="blog{{ paginator.next_page_path }}">次のページ &gt;</a>
       {% endif %}
     
     </div><!--pagination-->
