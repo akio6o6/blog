@@ -6,8 +6,8 @@ published: true
 <div class="posts">
 
   <!-- 記事一覧 -->
-  <article class="post">
-    {% for post in paginator.posts %}
+  {% for post in paginator.posts %}
+    <article class="post">
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
       {% include post_meta.html %}      
       <div class="entry">
@@ -16,23 +16,20 @@ published: true
     </article>
   {% endfor %}
 
-    <!-- ページネーション -->
-    {% if paginator.total_pages > 1 %}
-      <div class="pagination">
-
-        {% if paginator.previous_page %}
-          <a class="pagination__item" href="{{ paginator.previous_page_path }}">&lt; 前のページ</a>
-        {% endif %}
-
-        <span class="pagination__item pagination__number">
-          {{ paginator.page }} / {{ paginator.total_pages }}
-        </span>
-
-        {% if paginator.next_page %}
-          <a class="pagination__item" href="{{ paginator.next_page_path }}">次のページ &gt;</a>
-        {% endif %}
-
-      </div><!--pagination-->
-    {% endif %}
+  <!-- ページネーション -->
+  {% if paginator.total_pages > 1 %}
+    <div class="pagination">    
+      {% if paginator.previous_page %}
+        <a class="pagination__item" href="{{ paginator.previous_page_path }}">&lt; 前のページ</a>
+      {% endif %}
+      <span class="pagination__item pagination__number">
+        {{ paginator.page }} / {{ paginator.total_pages }}
+      </span>
+      {% if paginator.next_page %}
+        <a class="pagination__item" href="{{ paginator.next_page_path }}">次のページ &gt;</a>
+      {% endif %}
+    
+    </div><!--pagination-->
+  {% endif %}
  
 </div>
