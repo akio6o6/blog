@@ -320,6 +320,7 @@ nav {
 }
 .ad-bottom {
   max-width: 336px;
+  margin:16px auto 24px;
 }
 // sns
 
@@ -337,6 +338,7 @@ nav {
   &:hover {
     background: #4489be;
   }
+
 }
 
 .facebook a {
@@ -349,9 +351,11 @@ nav {
   color: white;
   background: #3b5999;
   text-decoration: none;
+  
   &:hover {
     background: #2f477a;
   }
+
 }
 
 .wrapper-footer {
