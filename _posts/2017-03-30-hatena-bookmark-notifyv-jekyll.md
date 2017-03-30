@@ -1,7 +1,7 @@
 ---
 layout: post
 date: '2017-03-30 12:00 +0900'
-published: false
+published: true
 title: 自分のブログがはてブされたらはてなの「お知らせ」に通知させる【Jekyll版】
 tags: hatena jekyll
 ---
