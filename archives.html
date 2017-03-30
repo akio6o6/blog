@@ -12,7 +12,6 @@ published: true
     <ul class="posts">
       <li>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        <span class="post-date"> &raquo; {{ post.date | date: "%B %e, %Y" }}</span>
       </li>
   {% else %}
     {% capture month %}{{ post.date | date: '%B' }}{% endcapture %}
@@ -32,7 +31,6 @@ published: true
     {% endif %}
     <li>
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      <span class="post-date"> &raquo; {{ post.date | date: "%B %e, %Y" }}</span>
     </li>
   {% endunless %}
 {% endfor %}
