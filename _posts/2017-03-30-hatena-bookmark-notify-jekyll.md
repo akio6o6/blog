@@ -15,7 +15,7 @@ tags: hatena jekyll
 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 xmlns:dc="http://purl.org/dc/elements/1.1/"
 xmlns:foaf="http://xmlns.com/foaf/0.1/">
-<rdf:Description rdf:about="{{ site.url }}{{ page.url }}">
+<rdf:Description rdf:about="{% raw %}{{ site.url }}{{ page.url }}{% endraw %}">
 <foaf:maker rdf:parseType="Resource">
 <foaf:holdsAccount>
 <foaf:OnlineAccount foaf:accountName="はてなID">
@@ -27,6 +27,6 @@ xmlns:foaf="http://xmlns.com/foaf/0.1/">
 </rdf:RDF>
 ```
 
-はてなIDの部分に自分のIDを入力すればOK。うまくいかない場合は`{{ site.url }}{{ page.url }}`の部分を`{{ site.url }}{{ site.baseurl }}{{ page.url }}`するなど自分の設定にあわせて変更してください。よく分からない場合は`{{ site.url }}`にすれば通知されます。
+はてなIDの部分に自分のIDを入力すればOK。うまくいかない場合は`{% raw %}{{ site.url }}{{ page.url }}{% endraw %}`の部分を`{% raw %}{{ site.url }}{{ site.baseurl }}{{ page.url }}{% endraw %}`するなど自分の設定にあわせて変更してください。よく分からない場合は`{% raw %}{{ site.url }}{% endraw %}`だけにすれば通知されます。
 
 参考 : <a href="http://b.hatena.ne.jp/help/entry/nocomment#pageauth" target="_blank">コメント一覧非表示機能について - はてなブックマークヘルプ</a>
