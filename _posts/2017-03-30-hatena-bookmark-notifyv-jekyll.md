@@ -7,10 +7,10 @@ tags: hatena jekyll
 ---
 はてなブログに慣れきっているのでこれがないとなんか落ち着かない。
 
-▼ のコードを`_layouts/default.html`などからヘッダーやフッターに貼り付けるだけ。
+▼ のコードを`_layouts/default.html`などからヘッダーやフッターに貼り付けるだけでほぼ完了。
 
 ```html
-<!--hatena bookmark notify------>
+<!--hatena bookmark notify-->
 <rdf:RDF
 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 xmlns:dc="http://purl.org/dc/elements/1.1/"
