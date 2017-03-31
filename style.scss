@@ -390,10 +390,10 @@ nav {
     -moz-animation-iteration-count:infinite;
     -moz-animation-timing-function:ease;
     
-    & img {
+    img {
       width: 72px;
       height: 72px;
-      border: 2px solid #ddd;
+      border: 2px solid $green;
       border-radius: 50%;
     }
     
