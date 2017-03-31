@@ -380,7 +380,7 @@ nav {
 
   .icon {
     float: right;
-    margin: -60px auto 8px;
+    margin: -48px auto 8px;
     -webkit-animation-name:fuwafuwa;
     -webkit-animation-duration:1s;
     -webkit-animation-iteration-count:infinite;
@@ -401,12 +401,12 @@ nav {
 
   @-webkit-keyframes fuwafuwa {
     0% {-webkit-transform:translate(0, 0);}
-    50% {-webkit-transform:translate(0, -8px);}
+    50% {-webkit-transform:translate(0, -4px);}
     100% {-webkit-transform:translate(0, 0);}
   }
   @-moz-keyframes fuwafuwa {
     0% {-moz-transform:translate(0, 0);}
-    50% {-moz-transform:translate(0, -8px);}
+    50% {-moz-transform:translate(0, -4px);}
     100% {-moz-transform:translate(0, 0);}
   }
 
