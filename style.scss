@@ -68,11 +68,11 @@ p {
 }
 
 a {
-  color: $blue;
+  color: $green;
   text-decoration: none;
   cursor: pointer;
   &:hover, &:active {
-    color: $darkBlue;
+    color: $darkGreen;
   }
 }
 
@@ -253,7 +253,7 @@ nav {
 // entry
 .entry {
 
-  a {
+  a:hover {
     text-decoration: underline;
   }
   
@@ -267,17 +267,17 @@ nav {
   }
    h2:before {
     content: "##";
-    color: #aaa;
+    color: $green;
     margin-right: 4px;
   }
    h3:before {
     content: "###";
-    color: #aaa;
+    color: $green;
     margin-right: 4px;
   }
    h4:before {
     content: "####";
-    color: #aaa;
+    color: $green;
     margin-right: 4px;
   }
 
@@ -457,7 +457,7 @@ ul.posts {
 @mixin post-tag {
   padding: 0 .3rem;
   margin: 0 .1rem;
-  color: $blue;
+  color: $green;
   &:hover {
     text-decoration: underline;
   }
