@@ -21,7 +21,8 @@ body {
   background: $white;
   line-height: 1.6;
   font-size: 18px;
-  font-family: "Noto Sans Japanese", sans-serif;
+  font-family: 'M+ C Type-1 (basic latin) Regular',
+        'M+ Type-1 (general-j) Regular', sans-serif;
   color: $darkGray;
 }
 
@@ -177,7 +178,6 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: "Noto Sans Japanese", sans-serif;
   font-weight: 600;
   font-size: 24px;
   letter-spacing: 1px;
@@ -196,7 +196,6 @@ img {
 nav {
   float: right;
   margin-top: 23px;
-  font-family: "Noto Sans Japanese", sans-serif;
   font-size: 16px;
 
   @include mobile {
