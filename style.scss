@@ -165,7 +165,7 @@ img {
 
   img {
     border-radius: 50%;
-    border: 2px solid #ddd;
+    border: 2px solid $green;
   }
 }
 
@@ -267,17 +267,17 @@ nav {
   }
    h2:before {
     content: "##";
-    color: $green;
+    color: #aaa;
     margin-right: 4px;
   }
    h3:before {
     content: "###";
-    color: $green;
+    color: #aaa;
     margin-right: 4px;
   }
    h4:before {
     content: "####";
-    color: $green;
+    color: #aaa;
     margin-right: 4px;
   }
 
