@@ -371,6 +371,47 @@ nav {
 
 }
 
+// author box
+
+.author-box{
+  margin: 56px auto;
+  padding: 16px 16px;
+  border-top: 4px double #ddd;
+
+  .icon {
+    float: right;
+    margin: -56px auto 8px;
+    -webkit-animation-name:fuwafuwa;
+    -webkit-animation-duration:3s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-timing-function:ease;
+    -moz-animation-name:fuwafuwa;
+    -moz-animation-duration:2s;
+    -moz-animation-iteration-count:infinite;
+    -moz-animation-timing-function:ease;
+    
+    & img {
+      width: 72px;
+      height: 72px;
+      border: 2px solid #ddd;
+      border-radius: 50%;
+    }
+    
+  }
+
+  @-webkit-keyframes fuwafuwa {
+    0% {-webkit-transform:translate(0, 0);}
+    50% {-webkit-transform:translate(0, -8px);}
+    100% {-webkit-transform:translate(0, 0);}
+  }
+  @-moz-keyframes fuwafuwa {
+    0% {-moz-transform:translate(0, 0);}
+    50% {-moz-transform:translate(0, -8px);}
+    100% {-moz-transform:translate(0, 0);}
+  }
+
+}
+
 .wrapper-footer {
   margin-top: 40px;
   border-top: 1px solid #ddd;
