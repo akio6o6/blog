@@ -328,12 +328,16 @@ nav {
 }
 // sns
 
+.sns {
+  margin-right: 4px;
+  border-radius: 4px;
+}
+
 .sns a {
   display: inline-block;
   vertical-align: top;
   height: 28px;
   padding: 4px 8px 0px;
-  margin-right: 4px;
   border-radius: 4px;
   font-size: 13px;
   color: white;
