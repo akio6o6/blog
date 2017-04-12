@@ -47,10 +47,11 @@ published: true
       
       <h2>最近の記事</h2>
       <ul>
-        {% for post in site.posts limit:3 %}
+        {% for post in site.posts limit:5 %}
         <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
       </ul>
+      <a class="right" href="{{ site.baseurl }}archives">>> 記事一覧</a><br>
 
       <div class="author-box">
         <div class="icon"><img src="https://akio6o6.github.io/crowl.jpeg"></div>
