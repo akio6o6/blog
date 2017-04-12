@@ -47,7 +47,7 @@ published: true
       
       <h2>最近の記事</h2>
       <ul>
-        {% for post in site.posts limit:5 %}
+        {% for post in site.posts limit:4 %}
         <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
         <li><a href="{{ site.baseurl }}/archives">>> 記事一覧</a><li>
