@@ -21,7 +21,7 @@ Git2Go だけでも便利なんだけど、投稿の際に Front-matter（投稿
 
 その Workflow で Jekyll 仕様の Front-matter を先頭に追加→.mdファイル化するワークフローを作った。（Workflow のワークフローって表現できる日本語ありがたい:) ）
 
-<div style='max-width:400px;background:#2B5ED5;padding:10px;margin:16px 0;border-radius:4px;'><a href='https://workflow.is/workflows/e133067dbb89466692b763e138823315' style='color:white;text-decoration:none;'><img width='100' height='100' align='left' src='https://workflow-gallery.s3.amazonaws.com/workflow_icons/e133067dbb89466692b763e138823315.png' style='padding:0px;border:none;'><span style='font-size:120%;margin:10px;'>Commit-text-Jekyll</span><br><div style='float:left;color:white;background:#163F9F;margin:4px;padding:4px 10px;border-radius:50px;'>GET WORKFLOW</div></a><br clear='all'></div>
+<div style='max-width:400px;background:#2B5ED5;padding:10px;margin:16px 0;border-radius:4px;'><a href='https://workflow.is/workflows/e133067dbb89466692b763e138823315' style='color:white;text-decoration:none;'><img width='100' height='100' align='left' src='https://workflow-gallery.s3.amazonaws.com/workflow_icons/e133067dbb89466692b763e138823315.png' style='padding:0px;border:none;'><span style='margin:10px;'>Commit-text-Jekyll</span><br><div style='float:left;color:white;background:#163F9F;margin:4px;padding:4px 10px;border-radius:50px;'>GET WORKFLOW</div></a><br clear='all'></div>
 
 手順は
 
