@@ -20,3 +20,13 @@
     <meta property="og:title" content="{{ page.title }}" />
     <meta property="twitter:title" content="{{ page.title | escape}}" />
     {% endif %}
+
+    {% if page.url %}
+    <meta name="twitter:url" content="https://akio6o6.github.io/blog{{ page.url }}">
+    {% endif %}
+
+    {% if page.description %}
+    <meta name="twitter:description" content="{{ page.description }}">
+    {% else %}
+    <meta name="twitter:description" content="{{ site.description }}">
+    {% endif %}
