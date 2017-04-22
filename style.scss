@@ -21,9 +21,14 @@ html {
 body {
   background: $white;
   line-height: 1.6;
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Rounded Mplus 1c', sans-serif;
   color: $darkGray;
+  
+  @include mobile {
+    font-size: 16px;
+  }
+  
 }
 
 .container {
