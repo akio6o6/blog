@@ -21,7 +21,7 @@ html {
 body {
   background: $white;
   line-height: 1.6;
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'Rounded Mplus 1c', sans-serif;
   color: $darkGray;
 }
@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 120%;
   margin: 8px 0;
   a {
     color: inherit;
@@ -53,15 +53,15 @@ h1 {
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 120%;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 110%;
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 100%;
 }
 
 p {
@@ -185,14 +185,14 @@ pre {
   color: $darkGray;
   cursor: pointer;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 120%;
   letter-spacing: 1px;
 }
 
 .site-description {
   margin: -5px 0 0 0;
   color: $gray;
-  font-size: 16px;
+  font-size: 100%;
 
   @include mobile {
     margin: 4px 0;
@@ -202,11 +202,11 @@ pre {
 nav {
   float: right;
   margin-top: 23px;
-  font-size: 16px;
+  font-size: 100%;
 
   @include mobile {
     display: block;
-    font-size: 15px;
+    font-size: 95%;
   }
 
   a {
@@ -229,7 +229,7 @@ nav {
   border-bottom: 1px solid $lightGray;
   
   h1 {
-    font-size: 20px;
+    font-size: 120%;
   }
   
 }
@@ -251,7 +251,7 @@ nav {
   }
   .read-more {
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 95%;
   }
 }
 
@@ -324,7 +324,7 @@ nav {
 .ad-top, .ad-bottom {
   text-align: center;
   color: #aaa;
-  font-size: 15px;
+  font-size: 95%;
   margin:16px auto;
 }
 .ad-bottom {
@@ -425,7 +425,7 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
-  font-size: 13px;
+  font-size: 90%;
 }
 
 // Pagenation
@@ -453,7 +453,7 @@ footer {
 
 // Archives
 ul.posts {
-  font-size: 16px;
+  font-size: 100%;
 }
 
 // Tags
@@ -471,7 +471,7 @@ ul.posts {
   display: block;
   margin-top: -.3rem;
   margin-bottom: 1rem;
-  font-size: 16px;
+  font-size: 100%;
   color: #9a9a9a;
   time {
     margin-right: 0;
