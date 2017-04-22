@@ -207,11 +207,10 @@ pre {
 nav {
   float: right;
   margin-top: 23px;
-  font-size: 100%;
+  font-size: 95%;
 
   @include mobile {
     display: block;
-    font-size: 95%;
   }
 
   a {
@@ -234,7 +233,7 @@ nav {
   border-bottom: 1px solid $lightGray;
   
   h1 {
-    font-size: 120%;
+    font-size: 110%;
   }
   
 }
