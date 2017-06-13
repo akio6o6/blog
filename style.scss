@@ -316,10 +316,15 @@ nav {
     margin: 0 auto;
   }
   
-  .amazlet-box, #appreach-box {
+  .amazlet-box {
     padding: 16px 8px;
     border: 1px solid #ddd;
     border-radius: 4px;
+  }
+  
+  #appreach-box {
+    border: 1px solid #ddd;
+    border-radius: 4px;  
   }
 
 }
