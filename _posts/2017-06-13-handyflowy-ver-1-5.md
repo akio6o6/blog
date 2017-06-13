@@ -44,4 +44,29 @@ AppStoreでのアプデ説明は、
 
 ほかにもパワーアップしてるらしいのでこれからいろいろ触ってみまーす。
 
-<div class="AppHtml"><span class="appIcon"><a href="https://itunes.apple.com/jp/app/handyflowy/id1080279196?mt=8&uo=4&at=10l4wP" target="_blank" rel="nofollow"><img src="http://is4.mzstatic.com/image/thumb/Purple117/v4/92/b6/df/92b6df7b-04a9-4f56-da13-59503d81691d/source/100x100bb.jpg" width="100" height="100" class="appIconImg" alt="HandyFlowy"/></a></span><br><span class="appTitle"><a href="https://itunes.apple.com/jp/app/handyflowy/id1080279196?mt=8&uo=4&at=10l4wP" target="_blank" rel="nofollow">HandyFlowy</a></span><br/><span class="appPrice">価格: 無料 (記事掲載時)</span><br/><span class="appCat">カテゴリ: 仕事効率化, ユーティリティ</span><br/><div class="appBtn"><a href="https://itunes.apple.com/jp/app/handyflowy/id1080279196?mt=8&uo=4&at=10l4wP" target="_blank" rel="nofollow">AppStoreでチェック</a></div></div>
+<div id="appreach-box" style="text-align:left;">
+    <img id="appreach-image" src="//lh3.googleusercontent.com/V1eCKX02a-G7Cyr5J2O4LkX1afocZIkJRgQtP5dJfE1cHjDH8dJpRPohppEgairMpe-q=w170" alt="HandyFlowy" style="float:left; margin:10px; width:25%; max-width:120px; border-radius:10%;">
+    <div class="appreach-info" style="margin: 10px;">
+        <div id="appreach-appname">HandyFlowy</div>
+        <div id="appreach-developer" style="font-size:80%; display:inline-block; _display:inline;">
+            開発元:<a id="appreach-developerurl" href="https://itunes.apple.com/jp/developer/michinari-yamamoto/id967739756?uo=4" target="_blank" rel="nofollow">Michinari YAMAMOTO</a>
+        </div>
+        <div id="appreach-price" style="font-size:80%; display:inline-block; _display:inline;">無料</div>
+        <div class="appreach-powered" style="font-size:80%; display:inline-block; _display:inline;">
+            posted with <a href="http://mama-hack.com/app-reach/" title="アプリーチ" target="_blank" rel="nofollow">アプリーチ</a>
+        </div>
+        <div class="appreach-links" style="float: left;">
+            <div id="appreach-itunes-link" style="display: inline-block; _display: inline;">
+                <a id="appreach-itunes" href="https://itunes.apple.com/jp/app/handyflowy/id1080279196?mt=8&amp;uo=4&amp;at=10l4wP" target="_blank" rel="nofollow">
+                    <img src="https://nabettu.github.io/appreach/img/itune_ja.svg" style="height:40px;">
+                </a>
+            </div>
+            <div id="appreach-gplay-link" style="display:inline-block; _display:inline;">
+                <a id="appreach-gplay" href="https://play.google.com/store/apps/details?id=jp.nap.app.handyflowy" target="_blank" rel="nofollow">
+                    <img src="https://nabettu.github.io/appreach/img/gplay_ja.png" style="height:40px;">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="appreach-footer" style="margin-bottom:10px; clear: left;"></div>
+</div>
