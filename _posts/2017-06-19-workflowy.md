@@ -9,7 +9,7 @@ WorkFlowyにアイディアを集めてるとランダム表示したくなる�
 
 ので、探したらあった。
 
-* <a href="http://sorashima.hatenablog.com/entry/omikuji" target="_blank">最下層のトピックを「おみくじ」のように引いてくれる  機能拡張スクリプト -  関連のメモ (  )</a>
+* <a href="http://sorashima.hatenablog.com/entry/omikuji" target="_blank">最下層のトピックを「おみくじ」のように引いてくれる #HandyFlowy 機能拡張スクリプト - #ToDo 関連のメモ ( #sorashima )</a>
 
 記事のやつはHandyFlowy用なのでBookmarkletにしてPCで使ってる。
 
