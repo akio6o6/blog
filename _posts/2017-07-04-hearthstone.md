@@ -15,7 +15,7 @@ published: true
 
 ランク20から、テンポメイジで回す。4-2で一旦休憩。
 
-## 読む
+## ランク上げるために記事読む
 今日は勝ってる方だけど、ランク20で勝てないのはなかなか悔しいので勉強してみる。
 
 * [【Hearthstone】チラ裏：ランクを上げられない理由を考える。:moco78のすくつ - ブロマガ](http://ch.nicovideo.jp/Rheahaorenoyome/blomaga/ar924379)
