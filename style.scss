@@ -9,6 +9,17 @@
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
 
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Noto Sans CJK JP"),
+        local("Noto Sans JP"),
+        url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff2) format('woff2'),
+        url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff) format('woff'),
+        url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.otf) format('opentype');
+}
+
 /**************/
 /* BASE RULES */
 /**************/
@@ -21,7 +32,7 @@ body {
   background: $white;
   line-height: 1.6;
   font-size: 16px;
-  font-family: 'Noto Sans Japanese', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   color: $darkGray;  
 }
 
