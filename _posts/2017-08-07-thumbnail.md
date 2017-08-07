@@ -11,8 +11,7 @@ thumb: 'https://i.gyazo.com/8cef442ed3848eac317f7529c0379a32.jpg'
 
 ←この画像がサムネイルになってるはず。
 
-== 追記 ＝＝
+<p>== 追記 ＝＝</p>
 
-できてた。
-
+▼ できてた。<br>
 <image src="https://i.gyazo.com/74e00d2f43a5405d82e45317ee6c5584.png">
