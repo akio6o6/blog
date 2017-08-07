@@ -96,6 +96,11 @@ prose:
           label: "tags"
           element: "text"
           value: ""
+      - name: "thumb"
+        field:
+          label: "thumb"
+          element: "text"
+          value: ""
       - name: "date"
         field:
           label: "date"
