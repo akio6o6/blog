@@ -6,6 +6,8 @@ title: thumbnailテスト
 thumb: 'https://i.gyazo.com/8cef442ed3848eac317f7529c0379a32.jpg'
 tags: ''
 ---
+テステス。
+
 <image src="https://i.gyazo.com/8cef442ed3848eac317f7529c0379a32.jpg" width="200px">
 
 この画像がサムネイルになってるはず。
