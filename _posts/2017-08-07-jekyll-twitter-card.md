@@ -17,7 +17,7 @@ Twitter cardで見た時にデフォルトも味気ないし、
 
 ```
 ｛% if page.thumb %｝
-  <meta name="twitter:image" content="{{ page.thumb }}" />
+  <meta name="twitter:image" content="｛｛ page.thumb ｝｝" />
 ｛% else %｝
   <meta name="twitter:image" content="logo.png（デフォルト用の画像URL）" />
 ｛% endif %｝
