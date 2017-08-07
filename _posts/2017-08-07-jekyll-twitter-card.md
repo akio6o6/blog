@@ -3,6 +3,7 @@ layout: post
 date: '2017-08-07 11:50 +0900'
 published: true
 title: JekyllでTwitter cardのサムネイル画像を設定する
+tags: jekyll
 ---
 Twitter cardで見た時にデフォルトも味気ないし、
 サムネあった方がいいと思いやってみた。
