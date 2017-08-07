@@ -13,14 +13,14 @@ Twitter cardで見た時にデフォルトも味気ないし、
 * [Jekyllでサムネイル画像を実装する - totorajの開発日記](http://tj.hateblo.jp/entry/2016/09/20/223029)
 * [Support for the Summary Twitter Card in Jekyll](https://gist.github.com/davidensinger/5415639)
 
-以下のコードをヘッダーに書いて（`_includes/meta.html`など経由してもOK）、
+以下のコード（波括弧は全角→半角）をヘッダーに書いて（`_includes/meta.html`など経由してもOK）、
 
 ```
-{% if page.thumb %}
+｛% if page.thumb %｝
   <meta name="twitter:image" content="{{ page.thumb }}" />
-{% else %}
+｛% else %｝
   <meta name="twitter:image" content="logo.png（デフォルト用の画像URL）" />
-{% endif %}
+｛% endif %｝
 ```
 
 記事ファイルのFront Matterに「thumb」という項目を作り、そこに画像URLを書けばOK。
