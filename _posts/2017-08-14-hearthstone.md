@@ -8,7 +8,7 @@ published: true
 
 騎士団来て「一週間くらい様子見してから強そうなアグロデッキ組む」と宣言したものの我慢できなくなって手持ちのレジェンドやゴールデンエピック、他レアなど砕きまくって（唯一まともに組めてたテンポメイジは残して）アグロドルイドを組んでしまった。
 
-レシピは<a href="http://roundog.hatenablog.com/entry/2017/08/14/200629" target="_blank">　勝率88%でレジェヒット　アグロドルイドの雑感及びガイド - Hearthstone　A　beginners' class</a>のデッキを採用しました。
+レシピは<a href="http://roundog.hatenablog.com/entry/2017/08/14/200629" target="_blank">　勝率88%でレジェヒット　アグロドルイドの雑感及びガイド - Hearthstone　A　beginners' class</a>のデッキを採用。
 
 ![](https://i.gyazo.com/5b6ff1b0d3a78ae2de947795b8ae9090.png)
 
