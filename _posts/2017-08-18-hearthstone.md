@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 【ハースストーン日記 2017-08-18 No.33】9-2 9連勝！ランク7！
+title: 【ハースストーン日記 No.33 2017-08-18】9-2 9連勝！ランク7！
 tags: hearthstone
 date: 2017-08-18 22:30
 published: true
