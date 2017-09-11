@@ -1,0 +1,58 @@
+---
+layout: post
+title: 【ハースストーン日記 No.51 2017-09-11】11-9 なんとかランク10&15
+tags: hearthstone
+date: 2017-09-11 22:30
+published: true
+---
+
+## クエスト
+
+* ウォリアー50枚
+* 3勝
+
+カジュアルでウォリアー回す。レベル10に！あとはプリーストを1レベル上げれば全クラス10レベル達成です。だいぶ今更感ありますが。。
+
+## アドベンチャー
+ウォリアーの5/5/2武器が手に入ったので、やっとこさアイスクラウンの城壁下層2戦目をプレイ。なんどかやり直して勝った！
+
+続けて3戦目も。初っ端テンポメイジで挑むも即諦め(笑)回復を積んだプリーストでデッキを組んで勝ちもうした。
+
+![](https://i.gyazo.com/ac3c3235fd643b27b5b1e0f165f0d33a.png)
+
+1パックゲットしたのでこの辺でラダーに。
+
+## ラダー
+練気ナーフ前にアグロドルイドで回してランク上げたいヤツ。
+
+戦績は11-9。先月ほど連勝できずフラストレーション溜まったりもしましたが、なんとかランク10まで行けました。
+
+## パック
+* 騎士団1: レア1
+* 旧神1: レジェンド1
+
+「希望の終焉 ヨグ=サロン」ゲット！
+
+![](https://i.gyazo.com/a6946e7d6499e03dd43516a6c4f19c82.png)
+
+レジェンド出たら魔素にするつもりだったけどヨグ様はさすがに残しときます。今ワイルドで組んでるテンポメイジに雑に入れても楽しそう。
+
+* ウンゴロ1: レジェンド1 エピック1
+
+旧神でレジェンドが出たので運頃に切り替えたら1つ目でレジェンド！当たったのは「ヴォラックス」「トートランの始原術士」でした。
+
+![](https://gyazo.com/33ce2e620226c6843f17485aa5fe7272.png)
+
+あまり使わなそうなので魔素に。800魔素以上貯まったのでワイルドテンポメイジのチューンナップを進めます。
+
+これでウンゴロの10パック以内のレジェンドは全て当たってしまったので、これからはクラシック開けつつ次回の拡張に備えたいと思います。
+
+## ワイルド
+ヨグ=サロン入れたテンポメイジで遊びたかったので少し。
+
+戦績は無敗で3連勝！ランクも15に上がりました。
+
+10ターン目微不利という状況でヨグ様出してひっくり返したりもできて楽しかったです(ΦωΦ)
+
+
+<div id="appreach-box" style="text-align:left;"><img id="appreach-image" src="https://lh6.ggpht.com/J-_wYHXVmR86Mvq6KNHiSvR0T3WH4wHgVC0OLQEIa1FHVbXARD0zafLA8JEUjo-CqDw=w170" alt="ハースストーン (Hearthstone)" style="float:left; margin:10px; width:25%; max-width:120px; border-radius:10%;"><div class="appreach-info" style="margin: 10px;"><div id="appreach-appname">ハースストーン (Hearthstone)</div><div id="appreach-developer" style="font-size:80%; display:inline-block; _display:inline;">開発元:<a id="appreach-developerurl" href="https://itunes.apple.com/jp/developer/blizzard-entertainment-inc/id306862900?uo=4" target="_blank" rel="nofollow">Blizzard Entertainment, Inc.</a></div><div id="appreach-price" style="font-size:80%; display:inline-block; _display:inline;">無料</div><div class="appreach-powered" style="font-size:80%; display:inline-block; _display:inline;">posted with <a href="http://mama-hack.com/app-reach/" title="アプリーチ" target="_blank" rel="nofollow">アプリーチ</a></div><div class="appreach-links" style="float: left;"><div id="appreach-itunes-link" style="display: inline-block; _display: inline;"><a id="appreach-itunes" href="https://itunes.apple.com/jp/app/%E3%83%8F%E3%83%BC%E3%82%B9%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3-hearthstone/id625257520?mt=8&amp;uo=4&amp;at=10l4wP" target="_blank" rel="nofollow"><img src="https://nabettu.github.io/appreach/img/itune_ja.svg" style="height:40px;"></a></div><div id="appreach-gplay-link" style="display:inline-block; _display:inline;"><a id="appreach-gplay" href="https://play.google.com/store/apps/details?id=com.blizzard.wtcg.hearthstone" target="_blank" rel="nofollow"><img src="https://nabettu.github.io/appreach/img/gplay_ja.png" style="height:40px;"></a></div></div></div><div class="appreach-footer" style="margin-bottom:10px; clear: left;"></div></div>
