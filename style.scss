@@ -162,19 +162,23 @@ pre {
 //
 
 .wrapper-masthead {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
   margin-bottom: 16px;
-  background: #eee;
-  border-bottom: #ddd;
+  background: #fff;
+  border-top: 2px solid #4CAF50;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
 }
 
 .masthead {
-  padding: 16px 0;
+  padding: 8px 0;
 }
 
 .site-avatar {
   float: left;
-  width: 56px;
-  height: 56px;
+  width: 24px;
   margin-right: 8px;
 
   &:hover {
@@ -183,7 +187,6 @@ pre {
 
   img {
     border-radius: 50%;
-    border: 2px solid #ddd;
   }
 }
 
@@ -196,23 +199,12 @@ pre {
   color: $darkGray;
   cursor: pointer;
   font-weight: 600;
-  font-size: 120%;
-  letter-spacing: 1px;
-}
-
-.site-description {
-  margin: -5px 0 0 0;
-  color: $gray;
   font-size: 100%;
-
-  @include mobile {
-    margin: 4px 0;
-  }
+  letter-spacing: 1px;
 }
 
 nav {
   float: right;
-  margin-top: 23px;
   font-size: 95%;
 
   @include mobile {
@@ -221,7 +213,7 @@ nav {
 
   a {
     margin-left: 24px;
-    color: $darkGray;
+    color: #888;
     text-align: right;
     letter-spacing: 1px;
 
@@ -234,6 +226,10 @@ nav {
 //
 // .main
 //
+
+#main {
+  margin-top: 72px;
+}
 
 .posts > .post {
   border-bottom: 1px solid $lightGray;
@@ -449,7 +445,7 @@ nav {
   margin-top: 40px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  background-color: #fff;
 }
 
 footer {
