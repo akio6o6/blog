@@ -291,6 +291,20 @@ nav {
     color: #aaa;
     margin-right: 4px;
   }
+  
+  ul li {
+    position: relative;
+  }
+  ul li::after {
+    display: block;
+    content: '';
+    position: absolute;
+    top: .65em;
+    left: -1em;
+    width: 8px;
+    height: 1px;
+    background-color: #666;
+  }
 
   .news {
     padding: 0 0 1.6em;
