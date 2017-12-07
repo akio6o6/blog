@@ -6,7 +6,7 @@ date: 2017-12-06 22:30
 published: true
 ---
 
-* [ニュース – 「Twitch Prime」が日本で解禁 / 1月9日までの加入でゴールデン・パックの報酬を獲得可能 | Hearthstone Express](http://hs-exp.jp/2017-12-06/news-twitch-prime-started-in-japan/)
+* [ニュース – 「Twitch Prime」が日本で解禁 / 1月9日までの加入でゴールデン・パックの報酬を獲得可能 - Hearthstone Express](http://hs-exp.jp/2017-12-06/news-twitch-prime-started-in-japan/)
 
 Twitch Prime が日本からでも登録できるようになり、その特典で全カードゴールデンのクラシックパックをゲットできるようになりました（他にもいろんなゲームのボーナスや毎月無料で1チャンネルサブスクリプションできたりします）
 
