@@ -60,7 +60,7 @@ tags: game shadowverse
 
 チュートリアルとストーリーを何戦かやってゲームの感触つかみつつ、Twitter検索してデッキリストみたりしてどんなんがいいか考えた結果、、
 
-▼ 組んだデッキがこちら
+▼ 組んだデッキがこちら  
 [デッキ詳細 - Shadowverse Portal](https://shadowverse-portal.com/deck/3.5.68_dc.68_dc.6Avi6.6Avi6.6Avi6.6EmHC.6EmHC.6IVXY.6IVXY.6IVXY.6MJgs.6MJgs.6MJgs.6MOZC.6MOZC.6Ei7Q.6Ei7Q.6Ei7Q.68_dm.6Q8Io.6Q8Io.6Q8Io.6Avhy.6Avhy.6Ejr6.6Ejr6.6MOZ2.6MOZ2.6MOZ2.6MJgY.6MJgY.6QF8I.6QF8I.6IaQ2.6EmHM.6EmHM.6EmHM.6EojS.6EojS.6EojS)
 
 ガンガン攻める構築というよりは、除去や回復等の「受け」とハンド補充を充実させた少し後半戦を見越した構築になってる。わからんけど。
@@ -103,5 +103,5 @@ tags: game shadowverse
 
 ---
 
-今んとこだいたいこんな感じです。
+今んとこだいたいこんな感じです。  
 新鮮味もあってかなり楽しいんでとりあえずちまちまプレイしていきます。
