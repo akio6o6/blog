@@ -65,11 +65,37 @@
         <p>その時々興味のあることを書いているブログ。ネット・アプリ・Webサービス関連が多め？ほぼ毎晩＿古き良き＿羅列型個人ニュースサイト風の記事も投稿中。詳細やお問い合わせは<a href="https://akio6o6.github.io/blog/about">About</a>で。</p>
       </div>
     </div>
-
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
           <p>© アキメモ</p>
+          <!-- トップへ -->
+<script>
+$(function () {
+   /** ページトップ処理 **/
+   // スクロールした場合
+   $(window).scroll(function() {
+       // スクロール位置が200を超えた場合
+       if ($(this).scrollTop() > 200) {
+           $('#pagetop').fadeIn();
+       } else {
+           // ページトップへをフェードアウト
+           $('#pagetop').fadeOut();
+       }
+   });
+
+   // ページトップクリック
+   $('#pagetop').click(function() {
+       // ページトップへスクロール
+       $('html, body').animate({
+           scrollTop: 0
+       }, 300);
+       return false;
+   });
+})(jQuery);
+</script>
+
+<a id="pagetop" href="#top" class="page_top" style="display: none;"><i class="fas fa-angle-up"></i></a>
         </footer>
       </div>
     </div>
