@@ -546,6 +546,25 @@ ul.tag-cloud li::after {
   height: 0px;
 }
 
+/* ページトップへ戻るボタン */
+#pagetop {
+  position:fixed;
+  bottom:8px;
+  right:10px;
+  padding:10px 12px;
+  color: #fff;
+  font-size:16px;
+  text-decoration:none;
+  background: #4CAF50;
+  opacity: 0.6;
+  z-index: 99;
+}
+#pagetop:hover {
+  color: #4CAF50;
+  background:#fff;/* 背景色 */
+  opacity: 1;
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
